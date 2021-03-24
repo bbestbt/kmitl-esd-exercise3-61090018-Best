@@ -13,6 +13,6 @@ public class CustomerServiceApplication {
          * Entry point use spring framework to start the service
          * @param args
          */
-        SpringApplication.run(CustomerServiceApplication);
+        SpringApplication.run(CustomerServiceApplication.class);
     }
 }

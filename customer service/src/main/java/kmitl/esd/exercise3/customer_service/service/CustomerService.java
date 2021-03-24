@@ -29,7 +29,7 @@ public class CustomerService {
                 .forEach(customer -> {
 //                    customer.setAge(...); // F fail
                     updateAge(customer);
-                        customers.add(customer)});
+                        customers.add(customer);});
         return customers;
     }
 

@@ -25,8 +25,8 @@ public class CustomerController {
      * @return list of customer object as JSON
      */
     @GetMapping("/customer")
-    private List<ICustomer> getAllCustomer(){
-        List<ICustomer> iCustomers =new ArrayList<>();
+    private List<Customer> getAllCustomer(){
+        List<Customer> iCustomers =new ArrayList<>();
         customerService.getAllCustomer().forEach(c->iCustomers.add(c));
         return iCustomers;
     }
@@ -34,7 +34,7 @@ public class CustomerController {
     //creating a get mapping that retrieves the detail of a specific customer
     @GetMapping("/customer/{id}")
     private Customer getCustomer(@PathVariable("id") Long id){
-        return customerService.getCustomerById(id)
+        return customerService.getCustomerById(id);
     }
 
     //creating a get mapping that retrieves the detail of a specific customer

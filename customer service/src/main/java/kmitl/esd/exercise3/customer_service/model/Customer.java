@@ -20,7 +20,7 @@ import java.util.List;
 //@Table(name="customerTable")  //table name in the DB is
 @NoArgsConstructor //lombok create constructor with no arg
 @Getter @Setter // lombok: getter and setter for all properties
-public class Customer implements ICustomer{
+public class Customer {
 
     @Id //primary key in DB
     //@GeneratedValue(strategy=GenerationType.IDENTITY)
