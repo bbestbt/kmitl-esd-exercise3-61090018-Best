@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: kmitl.esd.exercise2.customer_service.CustomerServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.082 s <<< FAILURE! - in kmitl.esd.exercise2.customer_service.CustomerServiceTest
+deleteCustomer  Time elapsed: 0.019 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <2> but was: <3>
+	at kmitl.esd.exercise2.customer_service.CustomerServiceTest.deleteCustomer(CustomerServiceTest.java:66)
+
+createCustomer  Time elapsed: 0.003 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <1> but was: <5>
+	at kmitl.esd.exercise2.customer_service.CustomerServiceTest.createCustomer(CustomerServiceTest.java:45)
+

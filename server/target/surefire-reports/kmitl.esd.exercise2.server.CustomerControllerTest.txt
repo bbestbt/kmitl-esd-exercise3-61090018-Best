@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: kmitl.esd.exercise2.server.CustomerControllerTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 0.059 s <<< FAILURE! - in kmitl.esd.exercise2.server.CustomerControllerTest
+getAllCustomers  Time elapsed: 0.017 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <4>
+	at kmitl.esd.exercise2.server.CustomerControllerTest.getAllCustomers(CustomerControllerTest.java:24)
+
+createCustomer  Time elapsed: 0.002 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <7> but was: <3>
+	at kmitl.esd.exercise2.server.CustomerControllerTest.createCustomer(CustomerControllerTest.java:35)
+
