@@ -9,8 +9,8 @@
         <module name="customer-service" />
         <module name="client" />
         <module name="server" />
-        <module name="model" />
         <module name="customer service" />
+        <module name="model" />
       </profile>
     </annotationProcessing>
   </component>

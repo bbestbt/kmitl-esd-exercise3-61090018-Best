@@ -1,7 +1,7 @@
 # Overview
-Github link : https://github.com/bbestbt/kmitl-esd-exercise2-61090018-Best
+Github link : https://github.com/bbestbt/kmitl-esd-exercise3-61090018-Best
 
-This project covers the excercise 2 (Client, Server, API) for KMITL ESD - lecture 5-7:
+This project covers the excercise 3 (Client, Server, API) for KMITL ESD - lecture 5-7:
 - Server with API (RESTful web services) 
 - Client using the server API
 - Model for data objects

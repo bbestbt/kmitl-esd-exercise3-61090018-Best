@@ -18,8 +18,7 @@ import java.util.logging.Logger;
 @Service
 public class QuotationService {
 
-    Logger logger=LogManager.getLogger(QuotationService.class);
-
+    Logger logger = Logger.getLogger(QuotationService.class.toString());
     @Autowired
     QuotationRepository quotationRepository; //persistence for quote
 
@@ -36,13 +35,13 @@ public class QuotationService {
         return quotations;
 
     }
-
-    /**
-     * get all quotation with a specific name
-     *
-     * @param creationDateTime of the quotation
-     * @return quotations with the name
-     */
+//
+//    /**
+//     * get all quotation with a specific name
+//     *
+//     * @param creationDateTime of the quotation
+//     * @return quotations with the name
+//     */
 //    public List<Quotation> getQuotation(LocalDateTime creationDateTime){
 //        List<Quotation> quotations=new ArrayList<>();
 //        quotationRepository.findAllWithCreationDateTimeAfter(creationDateTime).forEach(quotation -> quotations.add(quotation));
