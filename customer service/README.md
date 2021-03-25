@@ -1,2 +1,7 @@
-Customer service that manages customers and provides CRUD with CustomerDTO
-- GET,CREATE,DELETE,UPDATE
+Customer service module contains 4 packages:
+
+
+- Model
+- Repository
+- Service
+- Web
